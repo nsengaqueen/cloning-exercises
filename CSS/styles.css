@@ -126,3 +126,36 @@ form{
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
 }
+.words{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: bottom;
+    color: white;
+}
+.accomodation{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-gap : 40px;
+    margin-top: 50px;
+}
+.accom{
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+.accom img{
+    border-radius: 10px;
+    display: block;
+    width: 100%;
+}
+
+/*      homes */
+#homes{
+    padding: 50px;
+}
