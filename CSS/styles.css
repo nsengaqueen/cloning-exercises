@@ -229,3 +229,62 @@ form{
     height: 30px;
     width: 30px;
 }
+
+/*         ads                  */
+#holidays{
+    padding-top: 100px;
+}
+.ads h1{
+    font-size: 60px;
+}
+
+#holidays{
+    margin: 50px;
+}
+.holidays1{
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden; 
+    
+}
+.holidays1 img{
+    border-radius: 10px;
+    width: 100%; 
+}
+.btnholidays{
+    padding: 20px;
+    background-color: rgb(1, 1, 36);
+    font-weight: bold;
+    color: white;
+    border-radius: 30px;
+}
+.words4{
+    width: 100%;
+    height: 110%;
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    color: white;  
+    padding-left: 20px;
+   
+
+}
+.words4 p{
+    font-size: 20px;
+}
+.btnholidays{
+    font-size: 20px;
+}
+
+/*                 others                            */
+#others h2{
+    font-size: 30px;
+}
+#others p{
+    font-size: 20px; ;
+}
+
+.destin{
+    
+}
