@@ -1,3 +1,8 @@
+body{
+    padding: 5px 2%;
+}
+
+
 .navbar{
     padding: 2px 2%;
 }
@@ -197,10 +202,30 @@ form{
 
 
 /*                  trips                                      */
+
+
 .words3{
     width: 100%;
     height: 100%;
     border-radius: 10px;
-    display: flex;
+    
     color: black;
+}
+.triphead{
+    font-size: 40px;
+}
+
+
+/*           more                              */
+ #more{
+    padding-top: 15%;
+    display: flex;
+    justify-content: space-around;
+ }  
+
+
+
+#more img{
+    height: 30px;
+    width: 30px;
 }
