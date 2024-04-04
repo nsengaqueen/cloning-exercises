@@ -1,4 +1,40 @@
-body{
-    background-color: blue;
-    font-size: larger;
+.navbar{
+    padding: 2px 2%;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+
+}
+
+nav ul li{
+display: inline-block;
+list-style: none;
+margin: 20px;
+font-size:20px ;
+font-weight: 550;
+
+}
+
+.logo{
+    color: rgb(29, 121, 225);
+    font-size: 50px;
+}
+.downloadbtn{
+    padding: 7px;
+    background-color: white;
+    border-radius: 20px;
+    
+}
+.fa-solid{
+    color: blue;
+}
+
+/*                home                   */
+form{
+    background-color: rgb(231, 226, 226);
+    justify-content: space-between;
+    display: flex;
+    padding: 10px 10px;
 }
