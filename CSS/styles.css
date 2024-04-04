@@ -20,6 +20,7 @@ font-weight: 550;
 .logo{
     color: rgb(29, 121, 225);
     font-size: 50px;
+    
 }
 .downloadbtn{
     padding: 7px;
@@ -34,7 +35,7 @@ font-weight: 550;
 /*                home                   */
 #home{
     min-height: 600px;
-    background-image: url(images/home2.png) ;
+    background-image: url(../images/home2.png) ;
     background-repeat:no-repeat ;
     background-size: cover;
     
@@ -93,4 +94,35 @@ form{
     font-size: 20px;
     color: white;
     background-color: rgb(2, 2, 53);
+}
+
+/*                             places      */
+.places{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-gap : 40px;
+  
+   height: fit-content;
+}
+.place{
+    border-radius: 20px;
+   
+}
+.location1{
+    height: 100px;
+    width: 100%;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+.location2{
+    height: 100px;
+    width: 100%;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+.location3{
+    height: 100px;
+    width: 100%;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
 }
