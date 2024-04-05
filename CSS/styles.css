@@ -1,10 +1,10 @@
 body{
-    padding: 5px 2%;
+    padding: 2px 1%;
 }
 
 
 .navbar{
-    padding: 2px 2%;
+    padding: 1px 1%;
 }
 nav{
     display: flex;
@@ -16,8 +16,8 @@ nav{
 nav ul li{
 display: inline-block;
 list-style: none;
-margin: 20px;
-font-size:20px ;
+margin: 10px;
+font-size:10px ;
 font-weight: 550;
 
 }
@@ -111,6 +111,7 @@ form{
 }
 .place{
     border-radius: 20px;
+    border: 1px solid rgb(234, 226, 226);
    
 }
 .location1{
@@ -132,15 +133,10 @@ form{
     border-top-left-radius: 15px;
 }
 .words{
-    width: 100%;
-    height: 100%;
+    font-weight: bolder;
     border-radius: 10px;
     position: absolute;
-    left: 0;
     bottom: 0;
-    overflow: hidden;
-    display: flex;
-    justify-content: bottom;
     color: white;
 }
 .accomodation{
@@ -286,5 +282,39 @@ form{
 }
 
 .destin{
-    
+  display:flex; 
+  justify-content: space-between; 
+}
+.destin .fa-solid{
+    color: black;
+}
+#others a{
+    text-decoration: none;
+    color: rgb(67, 134, 227);
+}
+#links a{
+    text-decoration: none;
+    color:rgb(67, 134, 227);
+}
+#links a:hover{
+  text-decoration: underline;
+}
+.links{
+    display: flex;
+    justify-content: space-between;
+}
+#links img{
+    margin-right: 5%;
+}
+footer p{
+    color: rgb(69, 63, 63);
+}
+footer {
+    border-radius: 10px;
+    width: 100%;
+    border-color: black;
+    padding: 25px 0;
+    font-weight: 100;
+    margin-top: 20px;
+   
 }
