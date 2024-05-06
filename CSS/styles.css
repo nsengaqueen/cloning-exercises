@@ -1,0 +1,330 @@
+body{
+    padding: 2px 1%;
+}
+
+
+.navbar{
+    padding: 1px 1%;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+
+}
+
+nav ul li{
+display: inline-block;
+list-style: none;
+margin: 20px;
+font-size:20px ;
+font-weight: 550;
+
+}
+
+.logo{
+    color: rgb(29, 121, 225);
+    font-size: 50px;
+    
+}
+.downloadbtn{
+    padding: 7px;
+    background-color: white;
+    border-radius: 20px;
+    
+}
+.fa-solid{
+    color: blue;
+}
+
+/*                home                   */
+#home{
+    min-height: 600px;
+    background-image: url(../images/home2.png) ;
+    background-repeat:no-repeat ;
+    background-size: cover;
+    
+}
+form{
+    background-color: rgb(231, 226, 226);
+    justify-content: space-between;
+    display: flex;
+    padding: 10px 10px;
+    margin: 5px 5%;
+    border-radius: 20px;
+}
+
+#input{
+    width: 350px;
+    height: 60px;
+    border-radius: 10px;
+}
+.homewords{
+    font-size: 50px;
+    color: white;
+    margin-left: 30%;
+    padding-top: 15%;
+    font-weight: bold;
+}
+
+.location{
+    position: relative;
+}
+
+.location input {
+    padding-left: 30px; 
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 2c-4.418 0-8 3.582-8 8 0 5.25 7.464 13.007 7.704 13.25.091.092.213.141.322.141s.231-.049.322-.141c.239-.243 7.704-7.999 7.704-13.25 0-4.418-3.582-8-8-8zm0 11c-1.657 0-3-1.343-3-3s1.343-3 3-3 3 1.343 3 3-1.343 3-3 3z"/></svg>');
+    background-repeat: no-repeat;
+    background-position: 5px center;
+}
+.data input{
+    padding-left: 30px; 
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M21 3H3a1 1 0 0 0-1 1v16a1 1 0 0 0 1 1h18a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1zM8 18H5v-3h3zm0-5H5v-3h3zm0-5H5V5h3zm5 10H10v-3h3zm0-5H10v-3h3zm0-5H10V5h3zm5 10h-3v-3h3zm0-5h-3v-3h3zm0-5h-3V5h3z"/></svg>');
+    background-repeat: no-repeat;
+    background-position: 5px center;
+    
+}
+.travellers input{
+    padding-left: 30px; 
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 14c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm0 2c-3.925 0-9 2.015-9 6v1h18v-1c0-3.985-5.075-6-9-6zm0-9c2.761 0 5 2.239 5 5s-2.239 5-5 5-5-2.239-5-5 2.239-5 5-5z"/></svg>');
+    background-repeat: no-repeat;
+    background-position: 5px center;
+    
+}
+.button2{
+    padding: 10px;
+    border-radius: 30px;
+    margin-right: 2%;
+    width: 80px;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(2, 2, 53);
+}
+
+/*                             places      */
+.places{
+    /* display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-gap : 40px; */
+  grid-gap:40px;
+   height: fit-content;
+   display: grid;
+  grid-template-columns: repeat(10, auto);
+  grid-column-gap: 8px;
+  overflow-x: scroll;
+}
+.places::-webkit-scrollbar {
+    display: none;
+  }
+
+
+.place{
+    border-radius: 20px;
+    border: 1px solid rgb(234, 226, 226);
+   
+}
+.location1{
+    height: 100px;
+    width: 100%;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+.location2{
+    height: 100px;
+    width: 100%;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+.location3{
+    height: 100px;
+    width: 100%;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+.words{
+    font-weight: bolder;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 0;
+    color: white;
+}
+.accomodation{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-gap : 40px;
+    margin-top: 50px;
+}
+.accom{
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+.accom img{
+    border-radius: 10px;
+    display: block;
+    width: 100%;
+}
+
+/*      homes           */
+#homes{
+    padding: 50px;
+}
+.homes1{
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden; 
+    
+}
+.homes1 img{
+    border-radius: 10px;
+    width: 100%; 
+    filter:brightness(0.5)
+}
+.btnhomes{
+    padding: 20px;
+    background-color: rgb(1, 1, 36);
+    font-weight: bold;
+    color: white;
+    border-radius: 30px;
+}
+.words2{
+    width: 100%;
+    height: 60%;
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    color: white;  
+    padding-left: 20px;
+    padding-top: 50%;
+
+}
+.words2 p{
+    font-size: 20px;
+}
+.btnhomes{
+    font-size: 20px;
+}
+
+
+/*                  trips                                      */
+
+
+.words3{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    
+    color: black;
+}
+.triphead{
+    font-size: 40px;
+}
+
+
+/*           more                              */
+ #more{
+    padding-top: 15%;
+    display: flex;
+    justify-content: space-around;
+ }  
+
+
+
+#more img{
+    height: 30px;
+    width: 30px;
+}
+
+/*         ads                  */
+#holidays{
+    padding-top: 100px;
+}
+.ads h1{
+    font-size: 60px;
+}
+
+#holidays{
+    margin: 50px;
+}
+.holidays1{
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden; 
+    
+}
+.holidays1 img{
+    border-radius: 10px;
+    width: 100%; 
+}
+.btnholidays{
+    padding: 20px;
+    background-color: rgb(1, 1, 36);
+    font-weight: bold;
+    color: white;
+    border-radius: 30px;
+}
+.words4{
+    width: 100%;
+    height: 110%;
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    color: white;  
+    padding-left: 20px;
+   
+
+}
+.words4 p{
+    font-size: 20px;
+}
+.btnholidays{
+    font-size: 20px;
+}
+
+/*                 others                            */
+#others h2{
+    font-size: 30px;
+}
+#others p{
+    font-size: 20px; ;
+}
+
+.destin{
+  display:flex; 
+  justify-content: space-between; 
+}
+.destin .fa-solid{
+    color: black;
+}
+#others a{
+    text-decoration: none;
+    color: rgb(67, 134, 227);
+}
+#links a{
+    text-decoration: none;
+    color:rgb(67, 134, 227);
+}
+#links a:hover{
+  text-decoration: underline;
+}
+.links{
+    display: flex;
+    justify-content: space-between;
+}
+#links img{
+    margin-right: 5%;
+}
+footer p{
+    color: rgb(69, 63, 63);
+}
+footer {
+    border-radius: 10px;
+    width: 100%;
+    border-color: black;
+    padding: 25px 0;
+    font-weight: 100;
+    margin-top: 20px;
+   
+}
